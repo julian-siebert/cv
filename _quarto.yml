@@ -1,0 +1,15 @@
+project:
+  type: default
+  output-dir: _output
+
+format:
+  pdf:
+    template: template.tex
+    pdf-engine: xelatex
+    output-file: cv
+
+bibliography: references.bib
+csl: apa.csl
+link-citations: true
+nocite: |
+  @*

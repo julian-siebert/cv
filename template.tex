@@ -1,0 +1,86 @@
+\documentclass[10pt, a4paper]{article}
+
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{parskip}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{fontspec}
+\usepackage{multicol}
+\usepackage{calc}
+\usepackage{needspace}
+
+\providecommand{\tightlist}{%
+    \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\setcounter{secnumdepth}{0}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=black,
+    linkcolor=black
+}
+
+\titleformat{\section}
+{\large\bfseries}{}{0em}{}
+
+\titleformat{\subsection}
+{\normalsize\bfseries}{}{0em}{}
+
+\titleformat{\subsubsection}
+{\normalsize\itshape}{}{0em}{}
+
+\titlespacing{\section}{0pt}{1.4em}{0.4em}
+\titlespacing{\subsection}{0pt}{0.8em}{0.2em}
+\titlespacing{\subsubsection}{0pt}{0.6em}{0.1em}
+
+\setlist{noitemsep} % Removes item separation
+\titleformat{\section}{\needspace{5\baselineskip}\filbreak\large\bfseries}{\thesection}{1em}{}[\titlerule] % Section title format
+\titlespacing*{\section}{0pt}{\baselineskip}{\baselineskip} % Section title spacing
+\newenvironment{subs} %Indenting
+{\adjustwidth{2em}{0pt}}
+{\endadjustwidth}
+
+\setlist{noitemsep, topsep=0pt}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.4em}
+
+\pagestyle{empty}
+
+\AtBeginEnvironment{center}{%
+  \renewcommand{\rule}[3][]{\vspace{-1em}}%
+}
+
+\providecommand{\citeproctext}{}
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[2]
+ {\begin{list}{}{%
+  \setlength{\itemindent}{0pt}
+  \setlength{\leftmargin}{0pt}
+  \setlength{\labelwidth}{0pt}
+  \setlength{\labelsep}{0pt}
+  \setlength{\parsep}{0pt}
+  \renewcommand{\makelabel}[1]{}%
+  \ifodd #1
+   \setlength{\leftmargin}{\cslhangindent}
+   \setlength{\itemindent}{-1\cslhangindent}
+  \fi
+  \setlength{\itemsep}{#2\baselineskip}}}
+ {\end{list}}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{\hfill\break\parbox[t]{\linewidth}{\strut\ignorespaces#1\strut}}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\begin{document}
+    \begin{center}
+        \textbf{\Large $title$ }\\[20pt]
+    \end{center}
+    $body$
+\end{document}

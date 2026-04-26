@@ -1,2 +1,7 @@
 .idea
 .vscode
+
+/.quarto/
+**/*.quarto_ipynb
+
+_output

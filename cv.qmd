@@ -1,0 +1,123 @@
+---
+title: "Curriculum Vitae · Julian Siebert"
+format:
+  pdf:
+    template: template.tex
+    pdf-engine: xelatex
+---
+
+# Personal information
+
+\begin{multicols}{2}
+\textbf{Date of Birth}\\
+15.08.2007
+
+\textbf{Address}\\
+Humboldtstr. 11, 31311 Uetze
+
+\textbf{Languages}\\
+German (native), English (fluent)
+
+\textbf{Telephone}\\
++49 176 5586 0665
+
+\textbf{E-Mail}\\
+\href{mailto:mail@julian-siebert.de}{mail@julian-siebert.de}
+
+\textbf{Website}\\
+\href{https://www.julian-siebert.de}{https://www.julian-siebert.de}
+
+\textbf{GitHub}\\
+\href{https://github.com/julian-siebert}{https://github.com/julian-siebert}
+
+\textbf{ORCID}\\
+\href{https://orcid.org/0009-0005-1328-0579}{https://orcid.org/0009-0005-1328-0579}
+
+\end{multicols}
+
+
+# Research Interests
+
+Cybernetics and systems theory, particularly the Viable System Model
+and its dialogical extensions drawing on Hartmut Rosa's sociology of world
+relations. Sociocybernetics grounded in neuroscientific and
+psychiatric empirics, including questions of social pathology.
+Macroeconomics as a precondition for organizational viability
+(System 4 in VSM), with a focus on sectoral balances over aggregate
+stocks and flows. Communication architectures in digital systems.
+
+# Engineering Interests
+
+Minimizing complexity in distributed systems. Preference for
+decentralized architectures and small, reliable components. Linux-native.
+Critical of heavy abstractions (e.g. Kubernetes) outside the narrow
+contexts where they earn their cost. Reliability over feature breadth.
+
+# Selected Publications
+
+::: {#refs}
+:::
+
+# Selected Project
+
+**Buffy** · A Protobuf manager written in Rust
+
+_Open-Source (2026 - present)_
+
+Single-binary CLI that compiles `.proto` files into client stubs for
+Go, Java, and Rust, and publishes them to GitHub, Maven Central, and
+crates.io from one `Buffy.toml`. Replaces hand-rolled `protoc`
+invocations and per-language release scripts with a single declarative
+config.
+
+# Professional Experience
+
+**Volkswagen Group** · Wolfsburg
+
+_Specialist in Digitalization Management (starting September 2026)_
+
+---
+
+**Gymnasium Unter den Eichen** · Uetze
+
+_German Federal Voluntary Service · Technical Responsible (2025 - 2026)_
+
+- Planning and coordination of school events on technical matters
+- Setup of the school's podcast studio
+- Written recognition by school administration for technical initiative
+
+---
+
+**o7studios** · Remote
+
+_Co-Founder · Software-architect (2024 - 2026)_
+
+- Technical lead of game network development team
+- Design and implementation of scalable enterprise-grade infrastructure
+- Architecture consulting and backend system development
+- Integration of external services and DevOps automation
+
+# Education
+
+**Carl Hahn Berufsbildende Schule** · Wolfsburg
+
+_Ausbildung Kaufmann für Digitalisierungsmanagement (starting August 2026)_
+
+---
+
+**Gymnasium Unter den Eichen** · Uetze
+
+_Fachhochschulreife (2017 - 2026)_
+
+# Technical Skills
+
+- **Languages**: Golang, Rust, Java, Kotlin
+- **Databases**: MongoDB, CockroachDB, PostgreSQL
+- **Infrastructure**: Docker, Podman, Kubernetes, Terraform
+- **Communication**: Protobuf, gRPC, NATS
+
+# Memberships
+
+**The Society for Managerial and Social Cybernetics**
+
+_Member (2026 - present)_
