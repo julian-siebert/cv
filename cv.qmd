@@ -36,16 +36,6 @@ German (native), English (fluent)
 \end{multicols}
 
 
-# Research Interests
-
-Cybernetics and systems theory, particularly the Viable System Model
-and its dialogical extensions drawing on Hartmut Rosa's sociology of world
-relations. Sociocybernetics grounded in neuroscientific and
-psychiatric empirics, including questions of social pathology.
-Macroeconomics as a precondition for organizational viability
-(System 4 in VSM), with a focus on sectoral balances over aggregate
-stocks and flows. Communication architectures in digital systems.
-
 # Engineering Interests
 
 Minimizing complexity in distributed systems. Preference for
@@ -53,14 +43,9 @@ decentralized architectures and small, reliable components. Linux-native.
 Critical of heavy abstractions (e.g. Kubernetes) outside the narrow
 contexts where they earn their cost. Reliability over feature breadth.
 
-# Selected Publications
-
-::: {#refs}
-:::
-
 # Selected Project
 
-**Buffy** · A Protobuf manager written in Rust
+**Buffy** · A Protocol Buffers build and publishing tool
 
 _Open-Source (2026 - present)_
 
@@ -68,7 +53,7 @@ Single-binary CLI that compiles `.proto` files into client stubs for
 Go, Java, and Rust, and publishes them to GitHub, Maven Central, and
 crates.io from one `Buffy.toml`. Replaces hand-rolled `protoc`
 invocations and per-language release scripts with a single declarative
-config.
+config. (Visit documentation at [books.julian-siebert.de/buffy](https://books.julian-siebert.de/buffy))
 
 # Professional Experience
 
@@ -101,20 +86,20 @@ _Co-Founder · Software-architect (2024 - 2026)_
 
 **Carl Hahn Berufsbildende Schule** · Wolfsburg
 
-_Ausbildung Kaufmann für Digitalisierungsmanagement (starting August 2026)_
+_Ausbildung Kaufmann für Digitalisierungsmanagement (starting September 2026)_
 
 ---
 
 **Gymnasium Unter den Eichen** · Uetze
 
-_Fachhochschulreife (2017 - 2026)_
+_Fachhochschulreife (2017 - 2025)_
 
 # Technical Skills
 
 - **Languages**: Golang, Rust, Java, Kotlin
 - **Databases**: MongoDB, CockroachDB, PostgreSQL
 - **Infrastructure**: Docker, Podman, Kubernetes, Terraform
-- **Communication**: Protobuf, gRPC, NATS
+- **Communication**: Protobuf, gRPC, NATS, OpenAPI
 
 # Memberships
 

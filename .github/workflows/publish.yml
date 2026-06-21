@@ -3,22 +3,32 @@ on:
   push:
     branches: [main]
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: quarto-dev/quarto-actions/setup@v2
         with:
           tinytex: true
-
       - run: quarto render
-
-      - run: cp _redirects _output/
-
-      - uses: cloudflare/wrangler-action@v3
+      - run: cp index.html _output/
+      - run: echo "cv.julian-siebert.de" > _output/CNAME
+      - uses: actions/upload-pages-artifact@v3
         with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy _output --project-name=cv
+          path: _output
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

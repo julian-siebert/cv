@@ -8,7 +8,6 @@ format:
     pdf-engine: xelatex
     output-file: cv
 
-bibliography: references.bib
 csl: apa.csl
 link-citations: true
 nocite: |
