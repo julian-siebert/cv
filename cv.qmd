@@ -59,7 +59,7 @@ config. (Visit documentation at [books.julian-siebert.de/buffy](https://books.ju
 
 **Volkswagen Group** · Wolfsburg
 
-_Specialist in Digitalization Management (starting September 2026)_
+_Specialist in Digitalization Management (since 2026)_
 
 ---
 
@@ -86,7 +86,7 @@ _Co-Founder · Software-architect (2024 - 2026)_
 
 **Carl Hahn Berufsbildende Schule** · Wolfsburg
 
-_Ausbildung Kaufmann für Digitalisierungsmanagement (starting September 2026)_
+_Ausbildung Kaufmann für Digitalisierungsmanagement (since 2026)_
 
 ---
 
@@ -107,4 +107,4 @@ _Fachhochschulreife (2017 - 2025)_
 
 (Gesellschaft für Wirtschafts und Sozialkybernetik e.V.)
 
-_Member (2026 - present)_
+_Member (since 2026)_
