@@ -35,26 +35,6 @@ German (native), English (fluent)
 
 \end{multicols}
 
-
-# Engineering Interests
-
-Minimizing complexity in distributed systems. Preference for
-decentralized architectures and small, reliable components. Linux-native.
-Critical of heavy abstractions (e.g. Kubernetes) outside the narrow
-contexts where they earn their cost. Reliability over feature breadth.
-
-# Selected Project
-
-**Buffy** · A Protocol Buffers build and publishing tool
-
-_Open-Source (2026 - present)_
-
-Single-binary CLI that compiles `.proto` files into client stubs for
-Go, Java, and Rust, and publishes them to GitHub, Maven Central, and
-crates.io from one `Buffy.toml`. Replaces hand-rolled `protoc`
-invocations and per-language release scripts with a single declarative
-config. (Visit documentation at [books.julian-siebert.de/buffy](https://books.julian-siebert.de/buffy))
-
 # Professional Experience
 
 **Volkswagen Group** · Wolfsburg
@@ -81,6 +61,18 @@ _Co-Founder · Software-architect (2024 - 2026)_
 - Designed and implemented scalable, enterprise-grade cloud infrastructure using *Kubernetes*, ensuring high availability for distributed game-servers and services
 - Architecture consulting and backend system development
 - Integration of external services and DevOps automation using *Terraform* and *FluxCD* triggered by *GitHub Workflows*
+
+# Selected Project
+
+**Buffy** · A Protocol Buffers build and publishing tool
+
+_Open-Source (2026 - present)_
+
+Single-binary CLI that compiles `.proto` files into client stubs for
+Go, Java, and Rust, and publishes them to GitHub, Maven Central, and
+crates.io from one `Buffy.toml`. Replaces hand-rolled `protoc`
+invocations and per-language release scripts with a single declarative
+config. (Visit documentation at [books.julian-siebert.de/buffy](https://books.julian-siebert.de/buffy))
 
 # Education
 
