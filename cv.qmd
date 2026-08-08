@@ -101,7 +101,7 @@ _Fachhochschulreife (2017 - 2025)_
 - **Infrastructure**: Docker, Podman, Kubernetes, Terraform
 - **Communication**: Protobuf, gRPC, NATS, OpenAPI
 
-# Memberships
+# Memberships & Academic Engagements
 
 **The Society for Managerial and Social Cybernetics**
 
