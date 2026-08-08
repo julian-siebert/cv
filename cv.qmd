@@ -87,13 +87,6 @@ _Ausbildung Kaufmann für Digitalisierungsmanagement (since 2026)_
 
 _Fachhochschulreife (2017 - 2025)_
 
-# Technical Skills
-
-- **Languages**: Golang, Rust, Java, Kotlin
-- **Databases**: MongoDB, CockroachDB, PostgreSQL
-- **Infrastructure**: Docker, Podman, Kubernetes, Terraform
-- **Communication**: Protobuf, gRPC, NATS, OpenAPI
-
 # Memberships & Academic Engagements
 
 **The Society for Managerial and Social Cybernetics**
