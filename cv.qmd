@@ -60,6 +60,7 @@ _Co-Founder · Software-architect (2024 - 2026)_
 - Technical lead of game network development team, building high-throughput backends with **Golang** while leveraging **NATS** and **gRPC** with **Protobuf** for low-latency communication
 - Designed and implemented scalable, enterprise-grade cloud infrastructure using **Kubernetes**, ensuring high availability for distributed game-servers and services
 - Provided architecture consulting and developed crash-resilient backends, deploying **PostgreSQL** via **CloudNativePG** for automated, cloud-native database management
+- Deployed cost-efficient, single-node production environments using **Docker Compose** and **Cloudflare**, hosting **Authentik** for IAM alongside full-stack observability with **Prometheus**, **OpenTelemetry (OTEL)**, and **Grafana**.
 - Integration of external services and DevOps automation using **Terraform** and **FluxCD** triggered by **GitHub Workflows**
 
 # Selected Project
