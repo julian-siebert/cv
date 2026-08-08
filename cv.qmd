@@ -80,7 +80,7 @@ _Co-Founder · Software-architect (2024 - 2026)_
 - Technical lead of game network development team
 - Design and implementation of scalable enterprise-grade infrastructure
 - Architecture consulting and backend system development
-- Integration of external services and DevOps automation
+- Integration of external services and DevOps automation using *Terraform* and *FluxCD*
 
 # Education
 
