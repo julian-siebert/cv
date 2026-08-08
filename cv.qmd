@@ -4,6 +4,11 @@ format:
   pdf:
     template: template.tex
     pdf-engine: xelatex
+    include-in-header:
+      text: |
+        \usepackage{amssymb}
+        \usepackage{newunicodechar}
+        \newunicodechar{↗}{\ensuremath{\nearrow}}
 ---
 
 # Personal information
