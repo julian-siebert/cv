@@ -7,8 +7,9 @@ format:
     include-in-header:
       text: |
         \usepackage{amssymb}
-        \usepackage{newunicodechar}
-        \newunicodechar{↗}{\ensuremath{\nearrow}}
+from: markdown+substitutions
+substitutions:
+  "↗": "$\\nearrow$"
 ---
 
 # Personal information
