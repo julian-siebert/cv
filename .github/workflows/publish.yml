@@ -18,6 +18,7 @@ jobs:
           tinytex: true
       - run: quarto render
       - run: cp index.html _output/
+      - run: cp sitemap.xml _output/
       - run: echo "cv.julian-siebert.de" > _output/CNAME
       - uses: actions/upload-pages-artifact@v3
         with:
