@@ -1,104 +1,159 @@
 ---
-title: "Curriculum Vitae · Julian Siebert"
+title: "Lebenslauf · Julian Siebert"
 format:
   pdf:
     template: template.tex
     pdf-engine: xelatex
 ---
 
-# Personal information
+# Persönliche Daten
 
-\begin{multicols}{2}
-\textbf{Date of Birth}\\
+\begin{multicols}{3}
+\textbf{Geburtsdatum}\\
 15.08.2007
 
-\textbf{Address}\\
+\textbf{Anschrift}\\
 Humboldtstr. 11, 31311 Uetze
 
-\textbf{Languages}\\
-German (native), English (fluent)
+\textbf{Sprachen}\\
+Deutsch, Englisch
 
-\textbf{Telephone}\\
+\textbf{Telefon}\\
 +49 176 5586 0665
 
 \textbf{E-Mail}\\
 \href{mailto:mail@julian-siebert.de}{mail@julian-siebert.de}
 
 \textbf{Website}\\
-\href{https://www.julian-siebert.de}{https://www.julian-siebert.de}
+\href{https://www.julian-siebert.de}{www.julian-siebert.de}
 
 \textbf{GitHub}\\
-\href{https://github.com/julian-siebert}{https://github.com/julian-siebert}
+\href{https://github.com/julian-siebert}{github.com/julian-siebert}
 
 \textbf{ORCID}\\
-\href{https://orcid.org/0009-0005-1328-0579}{https://orcid.org/0009-0005-1328-0579}
+\href{https://orcid.org/0009-0005-1328-0579}{0009-0005-1328-0579}
 
 \end{multicols}
 
-# Professional Experience
+# Berufserfahrung
 
-**Volkswagen Group** · Wolfsburg
+**Volkswagen AG** · Wolfsburg
 
-_Commercial specialist for digitalisation management (since 2026)_
+_Ausbildung zum Kaufmann für Digitalisierungsmanagement (seit 09/2026)_
+
+---
+
+**o7studios EOOD** · Remote
+
+_Mitgründer · Softwarearchitekt (07/2024 – 12/2025)_
+
+Entwicklerstudio hinter [**Heldeninsel.net**](https://heldeninsel.net), einem der größten deutschen
+Minecraft-Netzwerke mit durchschnittlich über 1.000 gleichzeitigen Spielern.
+
+- Entwurf der gesamten Backend- und Betriebsarchitektur; technische Leitung eines Teams von 3 Entwicklern
+- Aufbau und Betrieb einer hochverfügbaren **Kubernetes**-Plattform auf dedizierter Hardware für verteilte Spielserver und Dienste
+- Backend-Entwicklung in **Go** mit **NATS** und **gRPC/Protobuf** für latenzarme Kommunikation zwischen Diensten
+- Datenbankbetrieb mit **PostgreSQL** über **CloudNativePG** inkl. automatisiertem Failover und Backups
+- Automatisierte Bereitstellung per **Terraform**, **FluxCD** und **GitHub Actions**; Monitoring mit **Prometheus**, **OpenTelemetry** und **Grafana**
+- Architektur so dokumentiert und übergeben, dass das Team sie nach meinem Ausscheiden Dez. 2025 eigenständig weiterführt
 
 ---
 
 **Gymnasium Unter den Eichen** · Uetze
 
-_German Federal Voluntary Service · Technical Responsible (2025 - 2026)_
+_Bundesfreiwilligendienst · Technischer Verantwortlicher (08/2025 – 07/2026)_
 
-- Planning and coordination of school events on technical matters
-- Successfully built and launched the school's podcast studio (featured in the [Hannoversche Allgemeine Zeitung (HAZ) $\nearrow$](https://www.haz.de/lokales/umland/uetze/podcast-studio-in-uetze-gynasium-unter-den-eichen-erhaelt-16-000-euro-von-rossmann-I4HFSD5HCBEVBJ6IHT2MAZCVH4.html) regarding the €16,000 corporate sponsorship)
-- Written recognition by school administration for technical initiative
+- Technische Planung und Betreuung sämtlicher Schulveranstaltungen
+- Konzeption, Aufbau und Inbetriebnahme des schuleigenen Podcast-Studios, gefördert mit 16.000 € durch Rossmann ([Bericht der HAZ $\nearrow$](https://www.haz.de/lokales/umland/uetze/podcast-studio-in-uetze-gynasium-unter-den-eichen-erhaelt-16-000-euro-von-rossmann-I4HFSD5HCBEVBJ6IHT2MAZCVH4.html))
+- Unterstützung des laufenden IT-Betriebs der Schule
+- Empfehlungsschreiben der Schulleitung liegt vor
 
----
-
-**o7studios** · Remote
-
-_Co-Founder · Software-architect (2024 - 2026)_
-
-- Technical lead of game network development team, building high-throughput backends with **Golang** while leveraging **NATS** and **gRPC** with **Protobuf** for low-latency communication
-- Designed and implemented scalable, enterprise-grade cloud infrastructure using **Kubernetes**, ensuring high availability for distributed game-servers and services
-- Provided architecture consulting and developed crash-resilient backends, deploying **PostgreSQL** via **CloudNativePG** for automated, cloud-native database management
-- Deployed cost-efficient, single-node production environments using **Docker Compose** and **Cloudflare**, hosting **Authentik** for IAM alongside full-stack observability with **Prometheus**, **OpenTelemetry (OTEL)**, and **Grafana**
-- Integration of external services and DevOps automation using **Terraform** and **FluxCD** triggered by **GitHub Workflows**
-
-# Selected Project
-
-**Buffy** · A Protocol Buffers build and publishing tool
-
-_Open-Source (2026 - present)_
-
-Single-binary CLI that compiles `.proto` files into client stubs for
-Go, Java, and Rust, and publishes them to GitHub, Maven Central, and
-crates.io from one `Buffy.toml`. Replaces hand-rolled `protoc`
-invocations and per-language release scripts with a single declarative
-config. (Visit documentation at [books.julian-siebert.de/buffy](https://books.julian-siebert.de/buffy))
-
-# Education
-
-**Carl Hahn Berufsbildende Schule** · Wolfsburg
-
-_Ausbildung Kaufmann für Digitalisierungsmanagement (since 2026)_
+_Zuvor ehrenamtlich in der Veranstaltungstechnik der Schule tätig (08/2018 – 06/2025)_
 
 ---
 
-**Gymnasium Unter den Eichen** · Uetze
+**Michael Wessel Informationstechnologie GmbH** · Hannover
 
-_Fachhochschulreife (2017 - 2025)_
+_Schulpraktikum, Fachinformatiker Systemintegration / Anwendungsentwicklung (11/2023)_
 
-# Memberships & Academic Engagements
+- Eigenständige Einrichtung eines Windows-Domänencontrollers mit DNS und DHCP
+- Datenverarbeitung mit Python und Java (CSV-Import, SQLite)
+- Beurteilung: in allen Kriterien „trifft voll zu“; „kam mit gutem Vorwissen und hat alle Aufgaben schnell und sauber ausgeführt“
+
+# Wissenschaftliches Engagement
 
 **[Collective Intelligence Perspectives](https://ci-perspectives.org/)**
 
-_Member of Editorial Ethics and Integrity Board (since 2026)_
+_[Mitglied des Editorial Ethics and Integrity Board (seit 09/2026)](https://ci-perspectives.org/index.php/ojs-ci/about/editorialTeam)_
 
-CIP is an international, peer-reviewed academic journal bridging cybernetics, artificial intelligence and systemic management
-published by the Society for Managerial and Social Cybernetics and hosted by the
-Department of General Business Management and Operations Management at the University of Stuttgart.
+Internationale, begutachtete Fachzeitschrift an der Schnittstelle von **Kybernetik**,
+**künstlicher Intelligenz** und **systemischem Management**; herausgegeben von der Gesellschaft
+für Wirtschafts- und Sozialkybernetik, betreut von der Abteilung Allgemeine BWL und
+Produktionswirtschaft am betriebswirtschaftlichen Institut der Universität Stuttgart.
 
-**The Society for Managerial and Social Cybernetics**
+---
 
-(Gesellschaft für Wirtschafts und Sozialkybernetik e.V.)
+**Gesellschaft für Wirtschafts- und Sozialkybernetik e.V.**
 
-_Member (since 2026)_
+_Mitglied (seit 05/2026)_
+
+[Die Gesellschaft beschäftigt sich seit ihrer Gründung im Jahr 1968 mit der Erforschung
+und Anwendung kybernetischer Prinzipien in wirtschaftlichen, sozialen und technologischen Systemen.](https://gws-kybernetik.org/themen)
+
+# Forschungsinteressen
+\raggedright
+Systemtheorie · Management-Kybernetik zweiter Ordnung · Konstruktivistische Ethik · Schamsoziologie und soziale Steuerung in Organisationen · Organisationen als verteilte Systeme: Konsens und Koordination
+\par
+
+# Ausgewähltes Projekt
+
+**Buffy** · Build- und Publishing-Werkzeug für Protocol Buffers
+
+_Open Source (2026)_
+
+Kommandozeilenwerkzeug (ein einzelnes Binary), das `.proto`-Dateien in Client-Bibliotheken
+für Go, Java und Rust übersetzt und sie aus einer einzigen `Buffy.toml` heraus auf GitHub,
+Maven Central und crates.io veröffentlicht. Ersetzt handgeschriebene `protoc`-Aufrufe und
+sprachspezifische Release-Skripte durch eine deklarative Konfiguration.
+([Dokumentation $\nearrow$](https://books.julian-siebert.de/buffy))
+
+# Kenntnisse
+
+\begin{multicols}{3}\raggedright
+\textbf{Programmiersprachen}\\
+Java, Kotlin, Rust, Go, Python
+
+\textbf{Datenbanken}\\
+PostgreSQL, MongoDB
+
+\textbf{Datenhaltung \& Messaging}\\
+NATS, Redis, Hazelcast
+
+\textbf{Plattform \& Betrieb}\\
+Kubernetes, Docker, FluxCD, Terraform, Linux, Cloudflare
+
+\textbf{Observability}\\
+Prometheus, Grafana, OpenTelemetry
+
+\textbf{Identität \& Sicherheit}\\
+Authentik (IAM/SSO)
+
+\textbf{Arbeitsweise}\\
+Infrastructure as Code, GitOps, GitHub Workflows, CI/CD
+\end{multicols}
+
+# Ausbildung
+
+**Carl-Hahn-Schule, Berufsbildende Schulen** · Wolfsburg
+
+_Berufsschule, Kaufmann für Digitalisierungsmanagement (seit 2026)_
+
+---
+
+**Gymnasium Unter den Eichen** · Uetze
+
+_Fachhochschulreife (2025)_
+
+# Sonstiges
+
+Klavierspiel, am liebsten Spätromantik (v. a. Rachmaninoff)
